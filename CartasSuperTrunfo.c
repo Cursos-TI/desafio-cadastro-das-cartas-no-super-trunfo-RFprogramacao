@@ -20,9 +20,9 @@ int main() {
     printf("Digite o Código da Carta:\n");
     scanf("%s", &codigo);
     
-    printf("Digite o Nome da Cidade:\n");
-    scanf("%[^\n]", cidade);
-    scanf("%*[^\n]"); scanf("%*c");
+    printf("Digite o Nome da Cidade:\n");   
+    scanf("%[^\n]", cidade);                 //nesse caso usei o scanf com esse formato pois não estava conseguindo ler, nomes de cidades compostos, usei o fgets no formato aprendido nos conteúdos mas não tive sucesso, então pesquisei outra solução para que se tornasse funcional
+    scanf("%*[^\n]"); scanf("%*c");          
     scanf("%[^\n]", cidade);
     
     printf("Digite a População da Cidade:\n");
@@ -53,7 +53,7 @@ int main() {
     printf("Dados da Carta 2\n\n");
     
     printf("Digite o Estado:\n");
-    scanf("%s", &estado2);
+    scanf("%s", &estado2);                    // aqui usei o especificador de formato %s para um único char e funcionou pois o %c não estava entrando a opção de entrada do teclado para digitação
     
     
     printf("Digite o Código da Carta:\n");
