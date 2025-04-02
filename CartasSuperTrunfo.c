@@ -14,7 +14,7 @@ int main() {
     float densidade;
     float percapita;
     
-    printf("*Dados da Carta 1*\n\n");
+    printf("**Dados da Carta 1**\n\n");
     
     printf("Digite o Estado:\n");
     scanf("%c", &estado);
@@ -56,7 +56,7 @@ int main() {
     float densidade2;
     float percapita2;
     
-    printf("*Dados da Carta 2*\n\n");
+    printf("**Dados da Carta 2**\n\n");
     
     printf("Digite o Estado:\n");
     scanf("%s", &estado2);                    // aqui usei o especificador de formato %s para um único char e funcionou pois o %c não estava entrando a opção de entrada do teclado para digitação
